@@ -4,4 +4,7 @@ This app is the home of the Politics of Earth Survey, a project that is using da
 
 You can visit the app at: [Citizens of Earth Dashboard](https://git.heroku.com/secure-everglades-75348.git)
 
+### Preview
+![preview](preview.png)
+
 This app was made using Plotly Dash and deployed by Heroku. 
