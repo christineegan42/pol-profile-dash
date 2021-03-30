@@ -2,10 +2,6 @@ import pandas as pd
 import numpy as np
 import os
 
-import os
-from dotenv import load_dotenv
-load_dotenv(verbose=True)
-
 import dash
 from jupyter_dash import JupyterDash
 import dash_html_components as html
@@ -73,7 +69,7 @@ app = JupyterDash(external_stylesheets=[dbc.themes.LITERA])
 server = app.server
 
 
-top_cell = dbc.Col([html.H2('Citizen of Earth Dashboard')], width=12)
+top_cell = dbc.Col([html.H2('Politics of Earth Dashboard')], width=12)
 right_col = dbc.Col([survey_card], width=6)
 left_col = dbc.Col([result_card], width=6)
 app.layout = html.Div([dbc.Row([top_cell]),
